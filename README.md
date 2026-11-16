@@ -1,23 +1,22 @@
-# Comptage de mots : Python simple, pseudo-MapReduce, Hadoop et Spark
+# Big Data — TP
 
-Notebook : [`comptage_mots.ipynb`](comptage_mots.ipynb)
+Enzo Caramella — identifiant 24021136
 
-Comparaison expérimentale de méthodes de comptage d'occurrences de mots sur trois fichiers
-texte (un mot par ligne) de 1 000, 100 000 et 10 000 000 lignes :
+| TP | Sujet | Dossier |
+|---|---|---|
+| TP1 | Comptage de mots, quatre méthodes : Python séquentiel, pseudo-MapReduce Python, Hadoop MapReduce, PySpark | [`TP1/`](TP1/) |
+| TP2 | Accidents de la route (Australie-Méridionale, 2012–2019) avec PySpark : reproduction d'un article et analyse personnelle | [`TP2/`](TP2/) |
+| TP3 | Deux cas personnels : small data et big data | `TP3_ID24021136/` (à venir) |
 
-- **Partie I** : les trois méthodes du rapport *Comptage de mots* (Python simple,
-  pseudo-MapReduce Python, Hadoop MapReduce) ;
-- **Partie II** : Apache Spark via PySpark (RDD et DataFrame), y compris l'effet du nombre de cœurs.
+Chaque dossier contient un `README.md` qui décrit le TP et explique comment le reproduire.
 
-## Reproduire
+## Environnement commun
 
-1. Démarrer le mini-cluster Hadoop 3.4.1 (HDFS + YARN, pseudo-distribué) :
-   ```bash
-   docker compose -f hadoop/docker-compose.yml up -d
-   ```
-2. Installer un JDK 17, 21 ou 25 (pour Spark) et les dépendances Python :
-   `pip install jupyter pandas matplotlib pyspark`
-3. Exécuter `comptage_mots.ipynb` depuis la racine du dépôt.
-   Les fichiers de test sont générés dans `data/` (graine fixe, donc reproductibles).
+Python 3.12, PySpark 4.2, un JDK 17 ou 21, et Docker pour le mini-cluster Hadoop du TP1. Un environnement virtuel
+`.venv/` à la racine (ignoré par git) peut servir à tous les TP :
 
-Arrêt du cluster : `docker compose -f hadoop/docker-compose.yml down -v`
+```bash
+pip install jupyter pandas matplotlib numpy pyspark
+```
+
+Les notebooks se lancent depuis leur propre dossier (`TP1/`, `TP2/`…) : leurs chemins sont relatifs à ce dossier.
