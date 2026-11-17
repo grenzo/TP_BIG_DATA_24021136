@@ -1,0 +1,6 @@
+# TP3 Big — recommandation Netflix avec Spark (testé avec Python 3.12, PySpark 4.2, Java 21)
+pyspark>=4.0
+pandas>=2.2
+numpy>=2.0
+matplotlib>=3.8
+jupyter

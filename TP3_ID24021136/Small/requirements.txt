@@ -1,0 +1,10 @@
+# TP3 Small — popularité Spotify (testé avec Python 3.12 ; PySpark nécessite Java 17 ou 21)
+pandas>=2.2
+numpy>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.5
+xgboost>=2.1
+joblib>=1.4
+pyspark>=4.0
+jupyter

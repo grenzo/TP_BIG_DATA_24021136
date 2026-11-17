@@ -1,0 +1,41 @@
+cust_id,rang,movie_id,titre,note_predite,source
+785314,1,2861,Babylon 5: Season 4,5.0,ALS
+785314,2,3521,Coupling: Season 1,5.0,ALS
+785314,3,3668,Farscape: Season 2,5.0,ALS
+785314,4,2040,Star Trek: The Next Generation: Season 5,5.0,ALS
+785314,5,3523,Star Trek: The Next Generation: Season 6,5.0,ALS
+785314,6,752,Star Trek: The Next Generation: Season 7,5.0,ALS
+785314,7,2566,Stargate SG-1: Season 3,5.0,ALS
+785314,8,1441,Stargate SG-1: Season 2,5.0,ALS
+785314,9,1357,Stargate SG-1: Season 7,5.0,ALS
+785314,10,209,Star Trek: Deep Space Nine: Season 5,4.95,ALS
+1488844,1,2782,Braveheart,4.16,ALS
+1488844,2,2452,Lord of the Rings: The Fellowship of the Ring,4.09,ALS
+1488844,3,4306,The Sixth Sense,4.08,ALS
+1488844,4,3456,Lost: Season 1,4.07,ALS
+1488844,5,2862,The Silence of the Lambs,4.02,ALS
+1488844,6,2162,CSI: Season 1,3.96,ALS
+1488844,7,752,Star Trek: The Next Generation: Season 7,3.93,ALS
+1488844,8,4427,The West Wing: Season 3,3.93,ALS
+1488844,9,1357,Stargate SG-1: Season 7,3.92,ALS
+1488844,10,3864,Batman Begins,3.91,ALS
+822109,1,3444,Family Guy: Freakin' Sweet Collection,4.52,populaires (utilisateur inconnu)
+822109,2,1476,Six Feet Under: Season 4,4.47,populaires (utilisateur inconnu)
+822109,3,2114,Firefly,4.45,populaires (utilisateur inconnu)
+822109,4,2452,Lord of the Rings: The Fellowship of the Ring,4.43,populaires (utilisateur inconnu)
+822109,5,3962,Finding Nemo (Widescreen),4.42,populaires (utilisateur inconnu)
+822109,6,2172,The Simpsons: Season 3,4.4,populaires (utilisateur inconnu)
+822109,7,3290,"The Godfather, Part II",4.4,populaires (utilisateur inconnu)
+822109,8,2162,CSI: Season 1,4.4,populaires (utilisateur inconnu)
+822109,9,3046,The Simpsons: Treehouse of Horror,4.39,populaires (utilisateur inconnu)
+822109,10,1256,The Best of Friends: Vol. 4,4.35,populaires (utilisateur inconnu)
+99999999,1,3444,Family Guy: Freakin' Sweet Collection,4.52,populaires (utilisateur inconnu)
+99999999,2,1476,Six Feet Under: Season 4,4.47,populaires (utilisateur inconnu)
+99999999,3,2114,Firefly,4.45,populaires (utilisateur inconnu)
+99999999,4,2452,Lord of the Rings: The Fellowship of the Ring,4.43,populaires (utilisateur inconnu)
+99999999,5,3962,Finding Nemo (Widescreen),4.42,populaires (utilisateur inconnu)
+99999999,6,2172,The Simpsons: Season 3,4.4,populaires (utilisateur inconnu)
+99999999,7,3290,"The Godfather, Part II",4.4,populaires (utilisateur inconnu)
+99999999,8,2162,CSI: Season 1,4.4,populaires (utilisateur inconnu)
+99999999,9,3046,The Simpsons: Treehouse of Horror,4.39,populaires (utilisateur inconnu)
+99999999,10,1256,The Best of Friends: Vol. 4,4.35,populaires (utilisateur inconnu)

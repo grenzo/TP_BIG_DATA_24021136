@@ -1,0 +1,16 @@
+{
+  "modele": "ALS (Spark MLlib) exporté en matrices de facteurs numpy",
+  "rang": 10,
+  "regParam": 0.05,
+  "maxIter": 15,
+  "perimetre": "films 1-4499 (combined_data_1), films et utilisateurs au-dessus du 70e centile d'activité",
+  "seuils": {
+    "notes_min_par_film": 1947,
+    "notes_min_par_utilisateur": 211
+  },
+  "versions": {
+    "spark": "4.2.0",
+    "python": "3.12.15",
+    "numpy": "2.5.4"
+  }
+}
