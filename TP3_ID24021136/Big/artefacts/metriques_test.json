@@ -1,0 +1,15 @@
+{
+  "Moyenne globale": {
+    "RMSE": 1.0611,
+    "MAE": 0.8904
+  },
+  "Biais (μ + b_u + b_i)": {
+    "RMSE": 0.9121,
+    "MAE": 0.7202
+  },
+  "ALS (rang 10, λ 0.05)": {
+    "RMSE": 0.8407,
+    "MAE": 0.6609
+  },
+  "notes_test": 1729298
+}

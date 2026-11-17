@@ -1,0 +1,28 @@
+{
+  "modele": "XGBRegressor dans un Pipeline scikit-learn (OneHotEncoder(track_genre) + variables numériques)",
+  "cible": "popularity",
+  "colonnes_entree": [
+    "track_genre",
+    "duration_ms",
+    "explicit",
+    "danceability",
+    "energy",
+    "key",
+    "loudness",
+    "mode",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "time_signature"
+  ],
+  "protocole": "GroupShuffleSplit 80/20 par track_id (aucun morceau commun entre apprentissage et test)",
+  "versions": {
+    "python": "3.12.15",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "pandas": "3.0.6"
+  }
+}
